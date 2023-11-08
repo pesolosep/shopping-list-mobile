@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:shoppinglistmobile/menu.dart';
+import 'package:shoppinglistmobile/screens/menu.dart';
 
+// /Users/joshuajodrian/repos/flutter/bin
 void main() {
   runApp(const MyApp());
 }
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
         useMaterial3: true,
       ),
-      home: MyHomePage()  ,
+      home: MyHomePage(),
     );
   }
 }
