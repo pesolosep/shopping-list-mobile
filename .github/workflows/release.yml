@@ -50,6 +50,7 @@ jobs:
         id: date
         run: echo "::set-output name=date::$(TZ='Asia/Jakarta' date +'%A %d-%m-%Y %T WIB')"
       
+      
       - name: Release APK
         uses: ncipollo/release-action@v1
         with:
